@@ -4,12 +4,24 @@ const data = [
     price: 200,
   },
   {
+    name: 'Almeja gigante',
+    price: 900,
+  },
+  {
     name: 'Carpín',
     price: 160,
   },
   {
-    name: 'Chinche de rostro humano',
+    name: 'Chinche con rostro humano',
     price: 1000,
+  },
+  {
+    name: 'Ciempiés',
+    price: 300,
+  },
+  {
+    name: 'Coral',
+    price: 500,
   },
   {
     name: 'Escarabajo tigre',
@@ -25,6 +37,14 @@ const data = [
   },
   {
     name: 'Locha',
+    price: 400,
+  },
+  {
+    name: 'Longicornio asiático',
+    price: 350,
+  },
+  {
+    name: 'Lubina',
     price: 400,
   },
   {
@@ -58,6 +78,26 @@ const data = [
   {
     name: 'Pargo rojo',
     price: 3000,
+  },
+  {
+    name: 'Peine de venus',
+    price: 300,
+  },
+  {
+    name: 'Perca amarilla',
+    price: 300,
+  },
+  {
+    name: 'Pez dorado',
+    price: 1300,
+  },
+  {
+    name: 'Pez remo',
+    price: 9000,
+  },
+  {
+    name: 'Proyecto bricolaje',
+    price: 200,
   },
   {
     name: 'Tarántula',
