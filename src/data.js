@@ -8,8 +8,24 @@ const data = [
     price: 900,
   },
   {
+    name: 'Boquerón',
+    price: 200,
+  },
+  {
+    name: 'Calamar',
+    price: 500,
+  },
+  {
+    name: 'Caracol de mar',
+    price: 180,
+  },
+  {
     name: 'Carpín',
     price: 160,
+  },
+  {
+    name: 'Cauri',
+    price: 60,
   },
   {
     name: 'Chinche con rostro humano',
@@ -20,8 +36,20 @@ const data = [
     price: 300,
   },
   {
+    name: 'Cochinilla de arena',
+    price: 200,
+  },
+  {
     name: 'Coral',
     price: 500,
+  },
+  {
+    name: 'Dólar de arena',
+    price: 120,
+  },
+  {
+    name: 'Dorada japonesa',
+    price: 5000,
   },
   {
     name: 'Escarabajo tigre',
@@ -30,6 +58,18 @@ const data = [
   {
     name: 'Esturión',
     price: 10000,
+  },
+  {
+    name: 'Gallo',
+    price: 300,
+  },
+  {
+    name: 'Gobio de río',
+    price: 400,
+  },
+  {
+    name: 'Jurel',
+    price: 150,
   },
   {
     name: 'Leucisco',
@@ -76,6 +116,14 @@ const data = [
     price: 1000,
   },
   {
+    name: 'Mariposa tigre',
+    price: 240,
+  },
+  {
+    name: 'Neumático',
+    price: 10,
+  },
+  {
     name: 'Pargo rojo',
     price: 3000,
   },
@@ -88,6 +136,10 @@ const data = [
     price: 300,
   },
   {
+    name: 'Pez balón',
+    price: 2500,
+  },
+  {
     name: 'Pez dorado',
     price: 1300,
   },
@@ -98,6 +150,14 @@ const data = [
   {
     name: 'Proyecto bricolaje',
     price: 200,
+  },
+  {
+    name: 'Renacuajo',
+    price: 100,
+  },
+  {
+    name: 'Rodaballo',
+    price: 800,
   },
   {
     name: 'Tarántula',
