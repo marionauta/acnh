@@ -20,6 +20,10 @@
     padding: 1rem;
   }
 
+  .insect {
+    font-weight: bold;
+  }
+
   .container:nth-child(2n) {
     background: #efefef;
   }
@@ -36,7 +40,9 @@
   }
 </style>
 
-<div class="container">
+<div
+  class="container"
+  class:insect={priceType === 'flick' && type === 'insect'}>
   <div class="topRow">
     <span>{name}</span>
     <span>{renderPrice}</span>
