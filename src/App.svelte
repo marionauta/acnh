@@ -3,7 +3,7 @@
   import data from "./data";
 
   let query = "";
-  let showNight = false;
+  let priceType = "normal";
   $: filtered = data.filter(
     item => !query || item.name.toLowerCase().includes(query.toLowerCase())
   );
@@ -31,13 +31,17 @@
 <div class="searchbar">
   <input type="text" placeholder="Buscar..." bind:value={query} />
   <label>
-    <input type="checkbox" bind:checked={showNight} />
-    <span>Precios nocturnos</span>
+    <span>Tipo de precio</span>
+    <select bind:value={priceType}>
+      <option value="normal">Normal</option>
+      <option value="night">Noche</option>
+      <option value="flick">Kamilo</option>
+    </select>
   </label>
 </div>
 
 <div class="list-container">
-  {#each filtered as { name, price, comment }}
-    <Row {name} {price} {comment} {showNight} />
+  {#each filtered as { type, name, price, comment }}
+    <Row {type} {name} {price} {comment} {priceType} />
   {/each}
 </div>

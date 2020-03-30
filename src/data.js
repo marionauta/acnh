@@ -1,5 +1,6 @@
 const data = [
   {
+    type: 'insect',
     name: 'Abeja melífera',
     price: 200,
   },
@@ -28,14 +29,17 @@ const data = [
     price: 60,
   },
   {
+    type: 'insect',
     name: 'Chinche con rostro humano',
     price: 1000,
   },
   {
+    type: 'insect',
     name: 'Ciempiés',
     price: 300,
   },
   {
+    type: 'insect',
     name: 'Cochinilla de arena',
     price: 200,
   },
@@ -52,6 +56,7 @@ const data = [
     price: 5000,
   },
   {
+    type: 'insect',
     name: 'Escarabajo tigre',
     price: 1500,
   },
@@ -80,6 +85,7 @@ const data = [
     price: 400,
   },
   {
+    type: 'insect',
     name: 'Longicornio asiático',
     price: 350,
   },
@@ -88,26 +94,32 @@ const data = [
     price: 400,
   },
   {
+    type: 'insect',
     name: 'Mantis orquídea',
     price: 2400,
   },
   {
+    type: 'insect',
     name: 'Mantis religiosa',
     price: 430,
   },
   {
+    type: 'insect',
     name: 'Mariposa celeste',
     price: 4000,
   },
   {
+    type: 'insect',
     name: 'Mariposa cometa de papel',
     price: 1000,
   },
   {
+    type: 'insect',
     name: 'Mariposa colias',
     price: 160,
   },
   {
+    type: 'insect',
     name: 'Mariposa común',
     price: 160,
   },
@@ -116,6 +128,7 @@ const data = [
     price: 1000,
   },
   {
+    type: 'insect',
     name: 'Mariposa tigre',
     price: 240,
   },
@@ -160,6 +173,7 @@ const data = [
     price: 800,
   },
   {
+    type: 'insect',
     name: 'Tarántula',
     price: 8000,
   },

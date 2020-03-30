@@ -1,8 +1,18 @@
 <script>
+  export let type;
   export let name;
   export let price;
   export let comment;
-  export let showNight;
+  export let priceType;
+
+  let renderPrice;
+  $: if (priceType === "night") {
+    renderPrice = price * 0.8;
+  } else if (priceType === "flick" && type === "insect") {
+    renderPrice = price * 1.5;
+  } else {
+    renderPrice = price;
+  }
 </script>
 
 <style>
@@ -29,7 +39,7 @@
 <div class="container">
   <div class="topRow">
     <span>{name}</span>
-    <span>{showNight ? price * 0.8 : price}</span>
+    <span>{renderPrice}</span>
   </div>
   {#if comment}
     <div class="comment">{comment}</div>
