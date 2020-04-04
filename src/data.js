@@ -13,8 +13,17 @@ const data = [
     price: 200,
   },
   {
+    name: 'Cacho',
+    price: 200,
+  },
+  {
     name: 'Calamar',
     price: 500,
+  },
+  {
+    type: 'bug',
+    name: 'Caracol',
+    price: 250,
   },
   {
     name: 'Caracol de mar',
@@ -37,6 +46,11 @@ const data = [
     type: 'bug',
     name: 'Ciempiés',
     price: 300,
+  },
+  {
+    type: 'bug',
+    name: 'Cochinilla',
+    price: 250,
   },
   {
     type: 'bug',
@@ -77,8 +91,18 @@ const data = [
     price: 150,
   },
   {
+    type: 'bug',
+    name: 'Langosta alargada',
+    price: 200,
+  },
+  {
     name: 'Leucisco',
     price: 240,
+  },
+  {
+    type: 'bug',
+    name: 'Libélula caballito del diablo',
+    price: 230,
   },
   {
     name: 'Locha',
@@ -129,8 +153,18 @@ const data = [
   },
   {
     type: 'bug',
+    name: 'Mariposa narciso',
+    price: 3000,
+  },
+  {
+    type: 'bug',
     name: 'Mariposa tigre',
     price: 240,
+  },
+  {
+    type: 'bug',
+    name: 'Mariposa triángulo azul',
+    price: 300,
   },
   {
     name: 'Neumático',
@@ -153,8 +187,24 @@ const data = [
     price: 2500,
   },
   {
+    name: 'Pez cabeza transparente',
+    price: 15000,
+  },
+  {
+    name: 'Pez cirujano',
+    price: 1000,
+  },
+  {
     name: 'Pez dorado',
     price: 1300,
+  },
+  {
+    name: 'Pez león',
+    price: 500,
+  },
+  {
+    name: 'Pez payaso',
+    price: 650,
   },
   {
     name: 'Pez remo',
