@@ -3,7 +3,7 @@
   import data from "./data";
 
   let query = "";
-  let priceType = "normal";
+  let priceVariant = "normal";
   $: filtered = data.filter(
     item => !query || item.name.toLowerCase().includes(query.toLowerCase())
   );
@@ -32,16 +32,17 @@
   <input type="text" placeholder="Buscar..." bind:value={query} />
   <label>
     <span>Tipo de precio</span>
-    <select bind:value={priceType}>
+    <select bind:value={priceVariant}>
       <option value="normal">Normal</option>
       <option value="night">Noche</option>
       <option value="flick">Kamilo</option>
+      <option value="cj">CJ</option>
     </select>
   </label>
 </div>
 
 <div class="list-container">
-  {#each filtered as { type, name, price, comment }}
-    <Row {type} {name} {price} {comment} {priceType} />
+  {#each filtered as item}
+    <Row {...item} {priceVariant} />
   {/each}
 </div>

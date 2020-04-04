@@ -9,14 +9,17 @@ const data = [
     price: 900,
   },
   {
+    type: 'fish',
     name: 'Boquerón',
     price: 200,
   },
   {
+    type: 'fish',
     name: 'Cacho',
     price: 200,
   },
   {
+    type: 'fish',
     name: 'Calamar',
     price: 500,
   },
@@ -30,6 +33,7 @@ const data = [
     price: 180,
   },
   {
+    type: 'fish',
     name: 'Carpín',
     price: 160,
   },
@@ -66,6 +70,7 @@ const data = [
     price: 120,
   },
   {
+    type: 'fish',
     name: 'Dorada japonesa',
     price: 5000,
   },
@@ -75,18 +80,22 @@ const data = [
     price: 1500,
   },
   {
+    type: 'fish',
     name: 'Esturión',
     price: 10000,
   },
   {
+    type: 'fish',
     name: 'Gallo',
     price: 300,
   },
   {
+    type: 'fish',
     name: 'Gobio de río',
     price: 400,
   },
   {
+    type: 'fish',
     name: 'Jurel',
     price: 150,
   },
@@ -96,6 +105,7 @@ const data = [
     price: 200,
   },
   {
+    type: 'fish',
     name: 'Leucisco',
     price: 240,
   },
@@ -105,6 +115,7 @@ const data = [
     price: 230,
   },
   {
+    type: 'fish',
     name: 'Locha',
     price: 400,
   },
@@ -114,6 +125,7 @@ const data = [
     price: 350,
   },
   {
+    type: 'fish',
     name: 'Lubina',
     price: 400,
   },
@@ -148,6 +160,7 @@ const data = [
     price: 160,
   },
   {
+    type: 'fish',
     name: 'Mariposa marina',
     price: 1000,
   },
@@ -171,6 +184,7 @@ const data = [
     price: 10,
   },
   {
+    type: 'fish',
     name: 'Pargo rojo',
     price: 3000,
   },
@@ -179,34 +193,42 @@ const data = [
     price: 300,
   },
   {
+    type: 'fish',
     name: 'Perca amarilla',
     price: 300,
   },
   {
+    type: 'fish',
     name: 'Pez balón',
     price: 2500,
   },
   {
+    type: 'fish',
     name: 'Pez cabeza transparente',
     price: 15000,
   },
   {
+    type: 'fish',
     name: 'Pez cirujano',
     price: 1000,
   },
   {
+    type: 'fish',
     name: 'Pez dorado',
     price: 1300,
   },
   {
+    type: 'fish',
     name: 'Pez león',
     price: 500,
   },
   {
+    type: 'fish',
     name: 'Pez payaso',
     price: 650,
   },
   {
+    type: 'fish',
     name: 'Pez remo',
     price: 9000,
   },
@@ -215,10 +237,12 @@ const data = [
     price: 200,
   },
   {
+    type: 'fish',
     name: 'Renacuajo',
     price: 100,
   },
   {
+    type: 'fish',
     name: 'Rodaballo',
     price: 800,
   },

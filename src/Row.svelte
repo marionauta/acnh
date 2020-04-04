@@ -3,12 +3,18 @@
   export let name;
   export let price;
   export let comment;
-  export let priceType;
+  export let priceVariant;
+
+  $: isBug = priceVariant === "flick" && type === "bug";
+  $: isFish = priceVariant === "cj" && type === "fish";
+  $: highlighted = isBug || isFish;
 
   let renderPrice;
-  $: if (priceType === "night") {
+  $: if (priceVariant === "night") {
     renderPrice = price * 0.8;
-  } else if (priceType === "flick" && type === "bug") {
+  } else if (isBug) {
+    renderPrice = price * 1.5;
+  } else if (isFish) {
     renderPrice = price * 1.5;
   } else {
     renderPrice = price;
@@ -20,7 +26,7 @@
     padding: 1rem;
   }
 
-  .bug {
+  .highlighted {
     font-weight: bold;
   }
 
@@ -40,7 +46,7 @@
   }
 </style>
 
-<div class="container" class:bug={priceType === 'flick' && type === 'bug'}>
+<div class="container" class:highlighted>
   <div class="topRow">
     <span>{name}</span>
     <span>{renderPrice}</span>
