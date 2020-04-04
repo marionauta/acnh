@@ -22,7 +22,10 @@ export default {
       // a separate file - better for performance
       css: css => {
         css.write('public/build/bundle.css');
-      }
+      },
+      // this allows it to be less conservative about
+      // checking whether values have changed.
+      immutable: true,
     }),
 
     // If you have external dependencies installed from
