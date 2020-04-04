@@ -8,7 +8,7 @@
   let renderPrice;
   $: if (priceType === "night") {
     renderPrice = price * 0.8;
-  } else if (priceType === "flick" && type === "insect") {
+  } else if (priceType === "flick" && type === "bug") {
     renderPrice = price * 1.5;
   } else {
     renderPrice = price;
@@ -20,7 +20,7 @@
     padding: 1rem;
   }
 
-  .insect {
+  .bug {
     font-weight: bold;
   }
 
@@ -40,9 +40,7 @@
   }
 </style>
 
-<div
-  class="container"
-  class:insect={priceType === 'flick' && type === 'insect'}>
+<div class="container" class:bug={priceType === 'flick' && type === 'bug'}>
   <div class="topRow">
     <span>{name}</span>
     <span>{renderPrice}</span>
